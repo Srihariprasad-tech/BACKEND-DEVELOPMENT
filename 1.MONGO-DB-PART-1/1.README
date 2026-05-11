@@ -1,0 +1,81 @@
+1. WHAT IS A DATABASE?
+
+A database is a place where we STORE DATA permanently.
+Example:
+Instagram stores:
+
+users
+passwords
+posts
+comments
+
+Amazon stores:
+
+products
+orders
+payments
+
+Without database:
+❌ Data disappears when server stops.
+
+With database:
+✅ Data stays permanently.
+
+Stores data in DOCUMENT format (JSON-like).
+{
+  "name":"Hari",
+  "age":20
+}
+flexible
+fast
+beginner friendly
+perfect with Node.js
+
+
+3. WHAT IS MONGODB?
+
+MongoDB
+MongoDB is a NoSQL database.
+
+It stores data in:
+Collections
+Documents
+
+
+SQL
+TABLE → ROW
+
+MongoDB
+COLLECTION → DOCUMENT
+
+EX Collection = students
+
+Documents ={
+  "name":"Hari",
+  "age":20
+}
+{
+  "name":"Suhas",
+  "age":21
+}
+
+| MongoDB    | Meaning            |
+| ---------- | ------------------ |
+| Database   | Main storage       |
+| Collection | Group of documents |
+| Document   | Single object/data |
+| Field      | Single property    |
+
+
+
+// mongoose
+
+Mongoose is a library used to CONNECT Node.js and MongoDB.
+Node.js ↔ Mongoose ↔ MongoDB
+
+Mongoose helps us:
+
+connect database
+create schema
+validate data
+perform CRUD easily

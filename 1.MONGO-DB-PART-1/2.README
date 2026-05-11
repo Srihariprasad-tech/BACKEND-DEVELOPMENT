@@ -1,0 +1,82 @@
+MongoDB Server
+      ↓
+Database
+      ↓
+Collection
+      ↓
+Documents
+
+studentDB
+   ↓
+students
+   ↓
+{ name: "Suhas", age: 20 }
+{ name: "Rahul", age: 21 }
+
+
+
+WHAT IS DATABASE ?
+
+Database is a container.
+Example:
+
+studentDB
+
+Inside database we store collections.
+
+
+WHAT IS COLLECTION ?
+Collection = group of similar documents.
+
+Like a table in SQL.
+Example:
+
+students
+teachers
+products
+users
+
+
+WHAT IS DOCUMENT ?
+Document = actual data.
+
+MongoDB stores data in JSON-like format.
+
+Example:
+
+{
+   "name":"Suhas",
+   "age":20,
+   "city":"Bangalore"
+}
+
+
+WHAT IS SCHEMA ?
+
+VERY IMPORTANT 🔥
+Schema defines:
+
+what fields allowed
+datatype
+structure of document
+
+name → String
+age → Number
+city → String
+Schema acts like RULES for documents.
+
+
+WHAT IS MODEL ?
+
+Model is used to interact with collection.
+
+Using model we can:
+
+insert data
+read data
+update data
+delete data
+
+Model connect
+
+Schema ↔ Collection
